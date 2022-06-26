@@ -6,6 +6,7 @@ Then type: python run.py test LexerSuite
 Then type: python run.py test ParserSuite
 
 pip install antlr4-python3-runtime==4.9.2
+source ../venv/bin/activate
 
 
 
