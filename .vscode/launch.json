@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "Debug ANTLR4 grammar",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "Lexer&SyntaxMid/src/test/testcases/202.txt",
+            "grammar": "Lexer&SyntaxMid/src/main/bkit/parser/BKIT.g4",
+            "actionFile": "exampleActions.js",
+            // "startRule": "start",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}
